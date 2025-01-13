@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  margin: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+.App {
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  font-size: 1.07em;
+  font-family: "Courier New", Courier, monospace;
+  color: #0b0a07;
+}
+
+.links {
+  margin-right: 100px;
+  padding: 0 15px 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 55px;
+}
+
+.About {
+  display: flex;
+}
+
+.Skills .frontend,
+.backend,
+.technologies {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Skills .skill {
+  display: flex;
+  justify-content: space-evenly;
+}

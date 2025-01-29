@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className="About" id="about">
-      <div class="introduction">
+      <div className="introduction">
         <div>
           <h4>Hi, I'm Tshepo Mpogeng.</h4>
         </div>
@@ -11,8 +11,13 @@ function About() {
           world of programming and hopefully play my part in advancing it
           further.
         </p>
+        <a href="./src/assets/cv.pdf" download>
+          <button>Download CV</button>
+        </a>
       </div>
-      <div class="photo"></div>
+      <div className="photo">
+        <img src="/images/profile.png" />
+      </div>
     </div>
   );
 }

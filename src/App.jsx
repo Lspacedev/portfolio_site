@@ -10,7 +10,14 @@ function App() {
     <div className="App">
       <Nav />
       <About />
+      <h3 id="skills" className="header">
+        {" "}
+        Skills
+      </h3>
       <Skills />
+      <h3 id="projects" className="header">
+        Projects
+      </h3>
       <Projects />
       <Contact />
       <Footer />

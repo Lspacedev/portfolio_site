@@ -24,6 +24,10 @@ function Skills() {
       icon: "/images/icons/React-icon.svg.png",
       text: "React Native",
     },
+    {
+      icon: "/images/icons/icons8-redux-48.png",
+      text: "Redux",
+    },
   ];
   const backend = [
     {
@@ -51,7 +55,7 @@ function Skills() {
       text: "Firebase",
     },
   ];
-  const technologies = [
+  const tools = [
     {
       icon: "/images/icons/icons8-git-60.png",
       text: "Git",
@@ -59,6 +63,9 @@ function Skills() {
   ];
   return (
     <div className="Skills">
+      <h1 id="skills" className="header">
+        Skills
+      </h1>
       <div className="frontend">
         <h4>Frontend</h4>
         <div className="skills-div">
@@ -86,10 +93,10 @@ function Skills() {
           ))}
         </div>
       </div>
-      <div className="technologies">
-        <h4>Technologies</h4>
+      <div className="tools">
+        <h4>Tools</h4>
         <div className="skills-div">
-          {technologies.map((skill, i) => (
+          {tools.map((skill, i) => (
             <div className="skill" key={i}>
               <div className="icon">
                 <img src={skill.icon} />

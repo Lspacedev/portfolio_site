@@ -1,5 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -9,15 +10,10 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Hero />
       <About />
-      <h3 id="skills" className="header">
-        {" "}
-        Skills
-      </h3>
+
       <Skills />
-      <h3 id="projects" className="header">
-        Projects
-      </h3>
       <Projects />
       <Contact />
       <Footer />

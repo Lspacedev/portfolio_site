@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <div className="Nav">
-      <h3>mpg.</h3>
+      <h3>Tshepo Mpogeng</h3>
       <div className="links">
         <div className="link current">
           <a href="#about">About</a>
@@ -13,7 +13,7 @@ function Nav() {
           <a href="#projects">Projects</a>
         </div>
         <div className="link">
-          <a href="#contact">Contact Me</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </div>

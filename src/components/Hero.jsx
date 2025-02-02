@@ -10,7 +10,7 @@ function Hero() {
           Always seeking opportunities to strenghten knowledge of this vast
           world of programming.
         </p>
-        <a href="./src/assets/tshepo_mpogeng_resume.pdf" download>
+        <a href="./tshepo_mpogeng_resume.pdf" download>
           <button>Download Resume</button>
         </a>
       </div>

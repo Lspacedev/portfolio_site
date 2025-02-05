@@ -7,7 +7,7 @@ function Hero() {
           <h1>Developer</h1>
         </div>
         <p>
-          Always seeking opportunities to strenghten knowledge of this vast
+          Always seeking opportunities to strenghten my knowledge in this vast
           world of programming.
         </p>
         <a href="./tshepo_mpogeng_resume.pdf" download>

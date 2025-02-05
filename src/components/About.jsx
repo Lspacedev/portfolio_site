@@ -9,7 +9,7 @@ function About() {
         Native for Mobile Application development.
       </p>
       <p>
-        My interest in tech began in my teens experimenting with computer
+        My interest in tech began in highschool experimenting with computer
         hardware. I enjoyed the idea of creating and working on machines. I
         eventually discovered coding and came to the conclusion that creating
         and controlling the world that ran off the machines was more interesting
@@ -17,10 +17,10 @@ function About() {
       </p>
 
       <p>
-        I am passionate about writing clean effecient code, that becomes fully
+        I am passionate about writing clean efficient code, that becomes fully
         functional, user friendly digital solutions. I like to think of myself
         as a student of the game, so I'm always ready to delve into new
-        technologies and expand my knowlegde and skills.
+        technologies and expand my knowledge and skills.
       </p>
       <div className="last">
         <p>When I'm not coding, I'm aboard the Starship Enterprise(TOS).</p>

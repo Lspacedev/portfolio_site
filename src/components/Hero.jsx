@@ -4,7 +4,7 @@ function Hero() {
       <div className="introduction">
         <div>
           {/* style={{ color: "#a8a53c" }} */}
-          <h3 style={{ margin: "2px", fontWeight: 700 }}>Hi, I'm</h3>
+          <h3 style={{ margin: "2px", fontWeight: 1000 }}>Hello, I'm</h3>
           <h1
             style={{
               margin: "2px",
@@ -15,7 +15,7 @@ function Hero() {
             Tshepo Mpogeng.
           </h1>
           <h3 style={{ fontWeight: 300, margin: "2px", fontSize: "1.9rem" }}>
-            <span> Full Stack </span>&<span> Mobile App</span> Developer
+            <span>A Full Stack </span>&<span> Mobile App</span> Developer
           </h3>
         </div>
         <p>

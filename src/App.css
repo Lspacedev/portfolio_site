@@ -189,12 +189,13 @@ body,
 .Skills .skills-div {
   display: flex;
   justify-content: flex-start;
-  gap: 25px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
 .Skills .skill {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 5px;
   padding: 5px 10px;
@@ -211,7 +212,10 @@ body,
   width: 50px;
   height: 50px;
 }
-
+.skill .text {
+  font-size: 0.8rem;
+  color: #1b1b1b;
+}
 .Skills h4 {
   font-weight: 400;
 }
@@ -248,10 +252,12 @@ body,
   background-color: rgb(230, 230, 230);
 }
 .Projects .project video {
+  flex: 3;
+  width: 40%;
   min-height: 300px;
 }
 .Projects .project img {
-  flex: 2;
+  flex: 3;
   width: 40%;
   min-height: 330px;
   object-fit: cover;

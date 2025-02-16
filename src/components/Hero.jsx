@@ -3,8 +3,20 @@ function Hero() {
     <div className="Hero" id="hero">
       <div className="introduction">
         <div>
-          <h1>Full Stack & Mobile App</h1>
-          <h1>Developer</h1>
+          {/* style={{ color: "#a8a53c" }} */}
+          <h3 style={{ margin: "2px", fontWeight: 700 }}>Hi, I'm</h3>
+          <h1
+            style={{
+              margin: "2px",
+              fontWeight: 900,
+              fontSize: "3.2rem",
+            }}
+          >
+            Tshepo Mpogeng.
+          </h1>
+          <h3 style={{ fontWeight: 300, margin: "2px", fontSize: "1.9rem" }}>
+            <span> Full Stack </span>&<span> Mobile App</span> Developer
+          </h3>
         </div>
         <p>
           Always seeking opportunities to strenghten my knowledge in this vast

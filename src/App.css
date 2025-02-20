@@ -127,7 +127,7 @@ body,
 .Hero .introduction {
   flex: 2;
   font-size: 1.3rem;
-  padding: 0px 15px;
+  padding: 0px 0px;
 }
 
 .Hero p {

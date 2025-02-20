@@ -4,19 +4,19 @@ function Hero() {
       <div className="introduction">
         <div>
           {/* style={{ color: "#a8a53c" }} */}
-          <h3 style={{ margin: "2px", fontWeight: 300 }}>Hello, I'm</h3>
+          <h3 style={{ margin: "2px", fontWeight: 200 }}>
+            Hello, I'm Tshepo Mpogeng.
+          </h3>
           <h1
             style={{
               margin: "2px",
               fontWeight: 900,
               fontSize: "3.2rem",
             }}
-          >
-            Tshepo Mpogeng.
+          ></h1>
+          <h1 style={{ fontWeight: 800, margin: "2px", fontSize: "2.5rem" }}>
+            <span>Full Stack </span>&<span> Mobile App</span> Developer
           </h1>
-          <h3 style={{ fontWeight: 350, margin: "2px", fontSize: "1.9rem" }}>
-            <span>A Full Stack </span>&<span> Mobile App</span> Developer
-          </h3>
         </div>
         <p>
           Always seeking opportunities to strenghten my knowledge in this vast

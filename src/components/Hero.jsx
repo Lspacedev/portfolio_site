@@ -4,15 +4,22 @@ function Hero() {
       <div className="introduction">
         <div>
           {/* style={{ color: "#a8a53c" }} */}
-          <p style={{ fontWeight: 200, fontSize: "1.3rem" }}>
-            Hello, I'm Tshepo Mpogeng.
-          </p>
 
           <h2
             style={{
-              fontWeight: 800,
+              fontWeight: 200,
               margin: "2px",
-              fontSize: "2.2rem",
+              fontSize: "2.8rem",
+            }}
+          >
+            Hello, I'm Tshepo Mpogeng.
+          </h2>
+
+          <h2
+            style={{
+              fontWeight: 200,
+              margin: "2px 0px",
+              fontSize: "1.8rem",
             }}
           >
             A Full Stack & Mobile Developer.

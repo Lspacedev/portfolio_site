@@ -22,10 +22,10 @@ function About() {
         as a student of the game, so I'm always ready to delve into new
         technologies and expand my knowledge and skills.
       </p>
-      <div className="last">
+      {/* <div className="last">
         <p>When I'm not coding, I'm aboard the Starship Enterprise(TOS).</p>
         <SiStartrek size={24} />
-      </div>
+      </div> */}
     </div>
   );
 }

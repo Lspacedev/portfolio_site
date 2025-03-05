@@ -11,7 +11,7 @@ function Hero() {
               fontSize: "2.8rem",
             }}
           >
-            Hello World!
+            Hello, I'm Tshepo
           </h2>
 
           <h2
@@ -21,7 +21,7 @@ function Hero() {
               fontSize: "1.8rem",
             }}
           >
-            I'm Tshepo Mpogeng. A Full Stack & Mobile Developer.
+            A Full Stack & Mobile Developer.
           </h2>
         </div>
         <p style={{ fontWeight: 200 }}>

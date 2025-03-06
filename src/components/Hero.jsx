@@ -6,9 +6,9 @@ function Hero() {
           {/* style={{ color: "#a8a53c" }} */}
           <h2
             style={{
-              fontWeight: 900,
+              fontWeight: 700,
               margin: "2px",
-              fontSize: "2.8rem",
+              fontSize: "3.2rem",
             }}
           >
             Hello, I'm Tshepo

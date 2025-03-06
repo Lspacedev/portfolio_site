@@ -32,6 +32,17 @@ body,
   align-items: center;
   justify-content: space-between;
   background-color: whitesmoke;
+
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
+    ),
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Contact .heading {
   display: flex;
@@ -122,6 +133,17 @@ body,
   display: flex;
   align-items: center;
   background-color: whitesmoke;
+
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
+    ),
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Hero .introduction {
@@ -167,6 +189,16 @@ body,
   display: flex;
   flex-direction: column;
   background-color: rgb(230, 230, 230);
+  background-image: linear-gradient(
+      to left,
+      rgb(230, 230, 230),
+      rgba(230, 230, 230, 0.918)
+    ),
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .About p {
   font-size: 1.3rem;
@@ -180,6 +212,16 @@ body,
 .Skills {
   min-height: 600px;
   background-color: whitesmoke;
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 245, 245, 0.849),
+      rgba(255, 255, 255, 0.253)
+    ),
+    url("/images/377489366_a64ed899-be93-408a-8187-aa85839a583a.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Skills .frontend,
 .backend,
@@ -220,7 +262,10 @@ body,
 .Skills h4 {
   font-weight: 400;
 }
-
+#skills {
+  margin: 0px;
+  padding: 25px 100px;
+}
 .Projects {
   padding: 30px 100px;
   background-color: rgb(230, 230, 230);

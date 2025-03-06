@@ -6,12 +6,12 @@ function Hero() {
           {/* style={{ color: "#a8a53c" }} */}
           <h2
             style={{
-              fontWeight: 700,
+              fontWeight: 800,
               margin: "2px",
               fontSize: "3.2rem",
             }}
           >
-            Hello, I'm Tshepo
+            Hello, I'm Tshepo.
           </h2>
 
           <h2
@@ -21,7 +21,7 @@ function Hero() {
               fontSize: "1.8rem",
             }}
           >
-            A Full Stack & Mobile Developer.
+            A Full Stack & Mobile App Developer.
           </h2>
         </div>
         <p style={{ fontWeight: 200 }}>
